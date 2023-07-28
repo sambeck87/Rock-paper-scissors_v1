@@ -57,6 +57,7 @@ This game was created using pure HTML, CSS and JavaScript.
 - **Visual platform**
 - **Score is available**
 - **Reset score button available**
+- **Available only for desktop version**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,6 +106,7 @@ To run the project, execute the index.html file
 
 - [ ] **Rounds selector**
 - [ ] **Store the Top Records**
+- [ ] **Implement the mobile version**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
