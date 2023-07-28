@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+.hide {
+  display: none;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.t-center {
+  text-align: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.height-full {
+  height: 100%;
+}
+
+.content-around {
+  justify-content: space-around;
+}
+
+#title {
+  width: 100%;
+  background-color: rgba(204, 204, 204, 0.774);
+  font-family: 'Roboto', sans-serif;
+  font-size: 4rem;
+}
+
+#score {
+  margin-top: 4.5rem;
+  font-size: 3.5rem;
+  line-height: 3rem;
+}
+
+#score-tag {
+  font-size: 1.8vw;
+  margin-bottom: 1rem;
+}
+
+#game_container {
+  position: relative;
+  height: 60vh;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#indication {
+  line-height: 2.7rem;
+  font-size: 1.5rem;
+}
+
+#user {
+  width: 17rem;
+  position: absolute;
+  top: 0;
+  left: 3rem;
+}
+
+#computer {
+  position: absolute;
+  top: 0;
+  right: 3rem;
+}
+
+.button {
+  background-color: transparent;
+  width: fit-content;
+}
+
+.b-user {
+  cursor: pointer;
+}
+
+#img_move_computer,
+#img_move_user {
+  width: 6.5rem;
+}
+
+#users_move,
+#computers_move {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  margin: 0 12rem;
+}
+
+.divisor {
+  height: 100%;
+  border: 1px solid black;
+}
+
+.result {
+  height: 100%;
+  border: none;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.divisor_container {
+  margin: 0 auto;
+}
+
+#reset {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  border: solid 1px black;
+  background-color: rgba(204, 204, 204, 0.774);
+  box-shadow: 2px 2px 2px;
+}
