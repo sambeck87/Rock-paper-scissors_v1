@@ -1,15 +1,9 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-
-  <br/>
-
+  <img src="https://ibb.co/MMF0JXb" alt="logo" width="140"  height="auto" />
   <h1><b>Rock, Paper, Scissors game</b></h1>
-
 </div>
-
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -18,6 +12,7 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Setup](#setup)
     - [Usage](#usage)
@@ -32,8 +27,8 @@
 
 # 📖 Rock, Paper, Scissors game <a name="about-project"></a>
 
-**Rock, Paper, Scissors game** is a traditional game but is now available to play on the computer. You can select your move and the game will show the computer's move. You will be able to see the result and the total score of the game.
-This game was created using pure HTML, CSS, and JavaScript.
+**Rock, Paper, Scissors game** the traditional game but now available to play versus the computer. You can select your move and the game will show the computer's move. You will be able to see the result and the total score of the game.
+This game was created using pure HTML, CSS and JavaScript.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -56,7 +51,12 @@ This game was created using pure HTML, CSS, and JavaScript.
 - **Visual platform**
 - **Score is available**
 - **Reset score button available**
-- **Available only for desktop version**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+[Live Demo Link](https://sambeck87.github.io/Rock-paper-scissors_v1/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,7 +99,6 @@ To run the project, execute the index.html file
 
 - [ ] **Rounds selector**
 - [ ] **Store the Top Records**
-- [ ] **Implement the mobile version**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,7 +108,7 @@ To run the project, execute the index.html file
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Htetaungkyaw71/Blog-App/issues).
+Feel free to check the [issues page](https://github.com/sambeck87/Rock-paper-scissors_v1/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
