@@ -1,28 +1,29 @@
-export let user_score = 0
-export let cpu_score = 0
-export default function Winner(u_move, c_move) {
-  const move = u_move + c_move
+// eslint-disable-next-line
+export let userScore = 0;
+// eslint-disable-next-line
+export let cpuScore = 0;
+export default function Winner(uMove, cMove) {
+  const move = uMove + cMove;
   switch (move) {
     case 'papelpiedra':
     case 'piedratijeras':
     case 'tijeraspapel':
-      user_score++;
+      // eslint-disable-next-line
+      userScore++;
       return 'Ganaste';
     case 'piedrapapel':
     case 'tijeraspiedra':
     case 'papeltijeras':
-      cpu_score++;
+      // eslint-disable-next-line
+      cpuScore++;
       return 'Perdiste';
-    case 'papelpapel':
-    case 'piedrapiedra':
-    case 'tijerastijeras':
-      return 'Empate';
+    default: return 'Empate';
   }
 }
 
 export function Reset() {
   const score = document.getElementById('score');
-  user_score = 0;
-  cpu_score = 0;
-  score.textContent = `${user_score}-${cpu_score}`
+  userScore = 0;
+  cpuScore = 0;
+  score.textContent = `${userScore}-${cpuScore}`;
 }

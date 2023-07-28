@@ -5,13 +5,13 @@ export default function Clear() {
   setTimeout(() => {
     const result = document.getElementById('winner');
     result.remove();
-    divisor.classList.remove('result', 't-center')
-    divisor.classList.add('divisor')
-    indication.classList.remove('hide')
-    space.classList.add('hide')
+    divisor.classList.remove('result', 't-center');
+    divisor.classList.add('divisor');
+    indication.classList.remove('hide');
+    space.classList.add('hide');
     const buttons = document.querySelectorAll('.button');
-    buttons.forEach(button => {
+    buttons.forEach((button) => {
       button.disabled = false;
     });
-  }, 2000)
+  }, 2000);
 }

@@ -10,4 +10,3 @@ rock.addEventListener('click', () => LetsPlay('piedra'));
 paper.addEventListener('click', () => LetsPlay('papel'));
 scissors.addEventListener('click', () => LetsPlay('tijeras'));
 reset.addEventListener('click', () => Reset());
-
