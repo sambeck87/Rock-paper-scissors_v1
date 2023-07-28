@@ -5,10 +5,65 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap" rel="stylesheet">
   <title>Document</title>
 </head>
 
 <body>
+  <header>
+    <div>
+      <h1 id="title" class="t-center">
+        Piedra, Papel o Tijera
+      </h1>
+    </div>
+  </header>
+
+  <section>
+    <div class="flex-col">
+      <h2 id="score" class="t-center">0-0</h2>
+      <p id="score-tag" class="t-center">marcador</p>
+    </div>
+  </section>
+
+  <section>
+    <div id="game_container" class="flex-row">
+      <div id="user" class="flex-col items-center height-full">
+        <p class="t-center">Tu</p>
+        <p id="indication" class="t-center">Selecciona una opcion</p>
+        <br id="space" class="hide" />
+        <div class="flex-col height-full content-around">
+          <button id="paper" class="button b-user"><img src="./images/papel.png" alt="papel"></button>
+          <button id="rock" class="button b-user"><img src="./images/piedra.png" alt="piedra"></button>
+          <button id="scissors" class="button b-user"><img src="./images/tijeras.png" alt="tijeras"></button>
+        </div>
+      </div>
+
+      <div class="flex-row divisor_container">
+        <div id="users_move" class="flex-col-rev">
+          <p id="text_user_move" class="t-center"></p>
+        </div>
+        <div id="result" class="divisor"></div>
+        <div id="computers_move">
+          <p id="text_computer_move" class="t-center"></p>
+        </div>
+      </div>
+
+      <div id="computer" class="flex-col items-center height-full">
+        <p class="t-center">Computadora</p>
+        <br>
+        <div class="flex-col height-full content-around">
+          <button class="button"><img src="./images/papel.png" alt="papel"></button>
+          <button class="button"><img src="./images/piedra.png" alt="piedra"></button>
+          <button class="button"><img src="./images/tijeras.png" alt="tijera"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <p class="t-center">
+    <button id="reset">Reset score</button>
+  </p>
   <script type="module" src="./index.js"></script>
 </body>
 
