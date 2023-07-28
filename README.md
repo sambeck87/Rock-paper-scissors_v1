@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="https://ibb.co/MMF0JXb" alt="logo" width="140"  height="auto" />
+  <img src="https://i.ibb.co/nzxJKWT/Captura-desde-2023-07-29-23-47-21.png" alt="logo" width="50%"  height="auto" />
   <h1><b>Rock, Paper, Scissors game</b></h1>
 </div>
 
